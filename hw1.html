@@ -98,8 +98,8 @@ function init() {
   window.addEventListener('resize', onWindowResize, false);
 
   /////////////////////////////////////////////////
-  let speed = 3;
-  let blocks = 5;
+  let speed = 10;
+  let blocks = 10;
   for (var i = 0; i < blocks; i++){
   		col[i] = false
   		bbs.push ( new AABB(new THREE.Vector3(myRandom()*40,myRandom()*40,0), new THREE.Vector3(myRandom()*speed, myRandom()*speed,0), new THREE.Vector3(2, 1, 0)) );
